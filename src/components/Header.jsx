@@ -8,6 +8,10 @@ const StyledHeader = styled.header`
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    width: 100%;
 
     p {
         background-color: #be2121;
